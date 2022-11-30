@@ -2,7 +2,10 @@ import os
 import glob
 import shutil
 
-os.chdir("G:\Downloads")
+path = input("¿Que carpeta quieres ordenar?\r\n")
+
+# "G:\Downloads"
+os.chdir(path)
 
 if os.path.exists("documents"):
     pass
