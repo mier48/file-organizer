@@ -3,8 +3,6 @@ import glob
 import shutil
 
 path = input("¿Que carpeta quieres ordenar?\r\n")
-
-# "G:\Downloads"
 os.chdir(path)
 
 if os.path.exists("documents"):
@@ -47,27 +45,27 @@ if os.path.exists("varios"):
 else:
     os.mkdir("varios")
 
-doc = glob.glob("*.doc")
-docx = glob.glob("*.docx")
-pdf = glob.glob("*.pdf")
-txt = glob.glob("*.txt")
-rtf = glob.glob("*.rtf")
-html = glob.glob("*.html")
-htm = glob.glob("*.htm")
-jpg = glob.glob("*.jpg")
-png = glob.glob("*.png")
-bat = glob.glob("*.bat")
-exe = glob.glob("*.exe")
-iso = glob.glob("*.iso")
-zip = glob.glob("*.zip")
-epub = glob.glob("*.epub")
-img = glob.glob("*.img")
-jpeg = glob.glob("*.jpeg")
-ltc = glob.glob("*.ltc")
-mp4 = glob.glob("*.mp4")
-arw = glob.glob("*.arw")
-rar = glob.glob("*.rar")
-msi = glob.glob("*.msi")
+doc     = glob.glob("*.doc")
+pdf     = glob.glob("*.pdf")
+txt     = glob.glob("*.txt")
+rtf     = glob.glob("*.rtf")
+htm     = glob.glob("*.htm")
+jpg     = glob.glob("*.jpg")
+png     = glob.glob("*.png")
+bat     = glob.glob("*.bat")
+exe     = glob.glob("*.exe")
+iso     = glob.glob("*.iso")
+zip     = glob.glob("*.zip")
+img     = glob.glob("*.img")
+ltc     = glob.glob("*.ltc")
+mp4     = glob.glob("*.mp4")
+arw     = glob.glob("*.arw")
+rar     = glob.glob("*.rar")
+msi     = glob.glob("*.msi")
+docx    = glob.glob("*.docx")
+jpeg    = glob.glob("*.jpeg")
+epub    = glob.glob("*.epub")
+html    = glob.glob("*.html")
 
 #videos
 for i in (mp4):
