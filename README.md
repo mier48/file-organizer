@@ -12,4 +12,4 @@ Windows file management script
 
 ## Built with 🛠️
 
-* [Python] (https://www.python.org/)
+* [Python](https://www.python.org/)
