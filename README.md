@@ -1,7 +1,7 @@
 # File Organizer
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](./LICENSE)
 [![Versión: 1.0](https://img.shields.io/badge/Version-1.0-blue.svg)](./README.md)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](./LICENSE)
 
 **File Organizer** es un script en **Python** diseñado para organizar automáticamente archivos en carpetas según su tipo. Ideal para mantener tus directorios ordenados y facilitar la búsqueda de archivos.
 
